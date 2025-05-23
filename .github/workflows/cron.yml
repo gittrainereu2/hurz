@@ -3,7 +3,7 @@ name: Ein Job mit dynamischer Variable je nach Zeitplan
 on:
   schedule:
     - cron: '0 8 * * 1'   # Montag 08:00 UTC
-    - cron: '0 20 * * 5'  # Freitag 20:00 UTC
+    - cron: '0 12 * * 5'  # Freitag 20:00 UTC
     - cron: '* * * * *' # jede minute
 jobs:
   dynamic-message:
